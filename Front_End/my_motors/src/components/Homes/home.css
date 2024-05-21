@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.caro_1 {
+    height: 110vh;
+    background-image: url('https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/revslider/home_slider1/slide_1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+
+.caro_1 h1 {
+    z-index: 7;
+    font-family: Montserrat;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 60px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.caro_1 h2 {
+    color: rgb(255, 177, 40);
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.caro_02b {
+    background-color: transparent !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.caro_02b:hover {
+    background-color: gold !important;
+    border: none !important;
+}
+.caro_02c:hover {
+    background-color: black !important;
+    border: none !important;
+}
+
+.caro_2 {
+    height: 110vh;
+    background-image: url('https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/revslider/home_slider1/slide-3-1919x877.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carh_1{
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.082);
+    
+}
+.carh_2{
+    height: 350px;
+    background-color: red;
+    
+}
+.carh_2{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: auto;
+    width: auto;
+}
+
+.caro_01 p{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Montserrat;
+
+}
+
+@media screen and (max-width:430px) {
+    .caro_1 {
+        height: 150vh !important;
+    }
+
+    .caro_2 {
+        height: 150vh !important;
+    }
+    .carh_2{
+        width: 150vh !important;
+    }
+    .caro_02b{
+        margin-top: 20px !important;
+    }
+    .caro_01{
+        padding: 10px !important;
+        /* background-color: rgba(0, 0, 0, 0.658) !important; */
+    }
+    .carh_2{
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
+
+/* Welcome Motors */
+.welcomemotors_1{
+    color: #232628;
+    font-size: 36px;
+    font-style: normal;
+    word-spacing: 0px;
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+/* CarouselComp_2 */
+
+.carouselcomp_2{
+    background-image: url(https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/2022/08/review_bg-1919x799-1.jpg);
+    height: auto;
+}
+
+/* RecentBox2 */
+
+.recentbox2_1{
+    background-image: url('https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/2022/09/icon-box-bg-1679x944-1.jpg');
+}
+
+@media (max-width: 768px) {
+    .recentbox2_1 {
+        /* Adjust styles for screens with a maximum width of 768px or less */
+        padding: 2rem; /* Example: Adjust the padding for smaller screens */
+    }
+
+    .bg-light {
+        /* Adjust background color for smaller screens */
+        background-color: #f0f0f0;
+    }
+
+    .bg-yellow-500 {
+        /* Adjust background color for smaller screens */
+        background-color: #fbbf24;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+/* Contact Us */
+
+.contactpage_1{
+    background-image: url('https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/2022/08/parallax-block-21-1919x1102-1.jpg');
+}
+
+.cart_1{
+    background-image: url(https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/themes/motors/assets/images/title-box-default-bg.jpg);
+}
+
+
+.service_1{
+    background-image: url(https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/2022/08/porsche-1917x554-1.jpg);
+}
+.service_2{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.service_3{
+    background-image: url(https://motors.stylemixthemes.com/elementor-dealer-two/wp-content/uploads/sites/24/2022/10/third-parallax-block.jpeg);
+}
+
+/* Aboutt Us */
+
+.ourTe_1{
+    border: 2px solid transparent;
+    z-index: 50;
+    width: 100%;
+}
+.ourTe_1:hover .ourTe_2{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+}
+.ourTe_3{
+    position: relative;
+
+}
+.ourTe_4{
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 15%;
+    opacity: 0;
+    transition: all .5s;
+    z-index: 1;
+}
+.ourTe_1:hover .ourTe_4{
+   top: 30%;
+   opacity: 1;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    border: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+
+/* Compare */
+
+.comp_1{
+    opacity: 0;
+}
+.comp_2{
+    height: auto;
+}
+
+.comp_2:hover .comp_1{
+    opacity: 1;
+    top: 170px;
+}
